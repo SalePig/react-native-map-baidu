@@ -14,6 +14,7 @@ import {
 } from 'react-native';
 
 import WalkView from './src/component/WalkView'
+import MapView from './src/component/MapView'
 
 export default class App extends Component<{}> {
   render() {
@@ -21,7 +22,7 @@ export default class App extends Component<{}> {
       <View style={styles.container}>
           <View style={styles.viewStyle}>
 
-            <WalkView style={styles.mapStyle} test={"qiu"}/>
+            <MapView style={styles.mapStyle} test={"qiu"}/>
 
         </View>
       </View>
